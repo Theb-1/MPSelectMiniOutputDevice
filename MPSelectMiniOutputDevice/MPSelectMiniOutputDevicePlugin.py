@@ -39,8 +39,8 @@ class MPSelectMiniOutputDevice(OutputDevice):
         super().__init__("MPSelectMini")
 
         self.setName(catalog.i18nc("@item:inmenu", "MP Select Mini"))
-        self.setShortDescription(catalog.i18nc("@action:button", "Print with MP Select Mini"))
-        self.setDescription(catalog.i18nc("@info:tooltip", "Print with MP Select Mini"))
+        self.setShortDescription(catalog.i18nc("@action:button", "Send to MP Select Mini"))
+        self.setDescription(catalog.i18nc("@info:tooltip", "Send to MP Select Mini"))
         self.setIconName("save")
 
         self._writing = False
