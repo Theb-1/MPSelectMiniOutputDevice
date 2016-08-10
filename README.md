@@ -4,12 +4,12 @@ This allows WIFI printing from within Cura 2.x with the popular and inexpensive 
 ### Warning ###
 Use this plugin at your own risk. I am not responsible for any damage caused by the use of this plugin.
 
-I have only tested this on Cura 2.1.2 and MP Select Mini firmware V18.37. This plugin has not been thoroughly tested and should be considered alpha status.
+I have only tested this on Cura 2.1.2 and MP Select Mini firmware V18.37.
 
 ### Installing ###
 1. Copy the 'MPSelectMiniOutputDevice' folder to the plugins folder within the installation directory of Cura 2.x
-2. Configure setting by either:
-  1. (Option 1) Opening 'LocalFileOutputDevicePlugin.py', setting and uncomminting the variables near the top of the code
+2. Configure settings by either:
+  1. (Option 1) Opening 'LocalFileOutputDevicePlugin.py', setting and uncomment the variables near the top of the code
   2. (Option 2) Opening cura.cfg, adding the following lines and updating the variables:
 ```
 [MPSelectMini]
