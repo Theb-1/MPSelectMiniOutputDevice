@@ -14,10 +14,10 @@ from UM.OutputDevice.OutputDevice import OutputDevice
 from UM.OutputDevice import OutputDeviceError
 
 from UM.i18n import i18nCatalog
-catalog = i18nCatalog("cura")
+catalog = i18nCatalog("uranium")
 
 # You can set the 'ip' and 'start_print' settings under [MPSelectMini] in cura.cfg
-# Alternatively, you can uncomment and use the variables below
+# Alternatively, you can uncomment and use the variables below:
 #ip = '0.0.0.0'
 #start_print = True
 

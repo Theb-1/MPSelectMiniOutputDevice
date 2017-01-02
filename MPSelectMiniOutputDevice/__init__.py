@@ -10,7 +10,7 @@ def getMetaData():
             "description": catalog.i18nc("@info:whatsthis", "Enables uploading to the MonoPrice Select Mini 3D's http server."),
             "author": "Ryan Tyler",
             "version": "1.0",
-            "api": 2,
+            "api": 3,
         }
     }
 
